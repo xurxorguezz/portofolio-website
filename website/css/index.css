@@ -42,3 +42,7 @@ li:hover{
     border: 1px solid purple;
     transition: .5s;
 }
+
+a{
+    color:black;
+}
