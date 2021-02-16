@@ -29,3 +29,16 @@ body::-webkit-scrollbar-thumb{
     background-color: purple;
 }
 
+.media{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-53%, -50%);
+}
+
+
+li:hover{
+    color: purple;
+    border: 1px solid purple;
+    transition: .5s;
+}
