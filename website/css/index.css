@@ -45,4 +45,24 @@ li:hover{
 
 a{
     color:black;
+    cursor: pointer;
+}
+
+.ContainerRepos{
+    font-family: sans-serif;
+    margin-left: 70px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.table{
+    font-family: sans-serif;
+}
+
+.com{
+    margin-left: 70px;
+}
+
+.Soft{
+    margin-left: 70px;
 }
