@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/image.css">
     <link rel="stylesheet" href="../css/sidemenu.css">
+    <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
     <title>Email</title>
     
@@ -27,36 +26,37 @@
         <a href="" class="closebtn" onclick="closeFunction()">&times;</a>
         </a>
     </div>
-
+    
+    
     <div class="container">
-        <div class="row">
-            <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
-                <div class="card card-signin my-5">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Send Email</h5>
-                        <form action="email-script.php" method="post" class="form-signin">
-                            <div class="form-label-group">
-                                <label for="inputEmail" style="color: black;">From <span style="color: #FF0000">*</span></label>
-                                <input type="text" name="fromEmail" id="fromEmail" class="form-control" placeholder="Email Address">
-                            </div> <br/>
-                            <div class="form-label-group">
-                                <label for="inputEmail" style="color: black;">To <span style="color: #FF0000">*</span></label>
-                                <input type="text" name="toEmail" id="toEmail" class="form-control" placeholder="Email address" value="arincelmare@gmail.com" readonly>
-                            </div> <br/>
-                            <label for="inputPassword" style="color: black;">Subject <span style="color: #FF0000">*</span></label>
-                            <div class="form-label-group">
-                                <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
-                            </div><br/>
-                            <label for="inputPassword" style="color: black;">Message <span style="color: #FF0000">*</span></label>
-                            <div class="form-label-group">
-                                <textarea  id="message" name="message" class="form-control" placeholder="Message" required ></textarea>
-                            </div> <br/>
-                            <button type="submit" name="sendMailBtn" class="btn btn-lg btn-primary btn-block text-uppercase" >Send Email</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        <form action="../php/contact-form.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="romania">Romania</option>
+            <option value="uk">UK</option>
+            <option value="germany">Germany</option>
+
+            <option value="other">Other</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+
 </body>
 </html>
