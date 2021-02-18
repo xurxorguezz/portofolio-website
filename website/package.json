@@ -1,0 +1,11 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "my portofolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Arin Grigoras",
+  "license": "ISC"
+}
