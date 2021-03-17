@@ -1,38 +1,89 @@
-.App {
+.image{
+  position: relative;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.small-about{
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  transform: translate(-40%, -20%);
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.explore {
+  padding: 15px 100px;
+  margin: 10px 4px;
+  color: purple;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+.explore {
+  border: 1px solid transparent;
+  -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+  transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+}
+
+
+.explore::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: -1;
+  width: 0%;
+  height: 1px;
+  background: #003177;
+  box-shadow: inset 0px 0px 0px #b6cdef;
+  display: block;
+  -webkit-transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
+  transition: all 0.4s cubic-bezier(.5, .24, 0, 1)
+}
+
+
+.wrapper {
+  margin: 80px auto;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+
+.explore:hover::before {
+  width: 100%;
+}
+
+
+.explore::after {
+  content: '';
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 0%;
+  height: 1px;
+  background: purple;
+  -webkit-transition: all 0.4s cubic-bezier(.7, .25, 0, 1);
+  transition: all 0.4s cubic-bezier(.7, .25, 0, 1)
+}
+
+
+.explore:hover::after {
+  width: 100%;
+}
+
+
+.explore:hover {
+  border-left: 3px solid purple;
+  border-right: 3px solid purple;
+  border-top: 3px solid purple;
+  border-bottom: 3px solid purple;
 }
