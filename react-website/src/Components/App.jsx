@@ -1,14 +1,12 @@
-//import logo from './logo.svg';
+import mainImg from '../pics/mainImg.jpg';
 import '../App.css';
+import React from 'react';
+import { useState } from 'react';
+
 
 function App() {
-
-  console.log("lmao nice");
-
   return (
-    <div>
-      Hello world
-    </div>
+    <img src={mainImg} style={{width: '100%', height: '100%'}}/>
   );
 }
 
