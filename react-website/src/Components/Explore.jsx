@@ -3,6 +3,8 @@ import React from 'react';
 import '../App.css';
 import Top from './Top';
 import editor from '../pics/editor.png';
+import portofolio from '../pics/portofolio.png';
+import shell from '../pics/shell.png';
 
 
 function Explore(){
@@ -21,13 +23,8 @@ function Explore(){
           <div style={{display: 'inline-block'}}>
             <Top />
           </div>
-
-          <div style={{display: 'inline-block'}}>
-            Self-Taught Programmer
-          </div>
-
             <div className="projects" style={{textAlign: 'center'}}>
-              <header className="title"></header>
+              <header className="title" style={{marginBottom: '50px'}}><h1>Projects<br/><br/><br/></h1></header>
             </div>
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4" style={{position: 'relative'}}>
             <div className="md:w-1/4 py-64 md:mb-0 mb-6 flex flex-col text-center items-center">
@@ -59,21 +56,24 @@ function Explore(){
                   onClick={() => check(2)}
                 />
                 <label htmlFor="s1" id="slide1">
-                  <img className="fea" src={editor} height="100%" width="100%"/>
+                  <img className="fea" src={portofolio} height="100%" width="100%"/>
                   <p style={{textAlign: 'center'}}>
-                    <a href="https://github.com/koreaneggroll/portofolio-website" id="portofolio">Portofolio-Site</a>
+                    Portofolio-Site <br/><br/>
+                    <a href="https://github.com/koreaneggroll/portofolio-website" id="portofolio">View Project</a>
                   </p>
                 </label>
                 <label htmlFor="s2" id="slide2">
                   <img className="fea" src={editor} height="100%" width="100%"/>
                   <p style={{textAlign: 'center'}}>
-                    <a href="https://github.com/koreaneggroll/Xenon-text-editor" id="text-editor">Xenon Text-Editor</a>
+                    Xenon Text-Editor <br/><br/>
+                    <a href="https://github.com/koreaneggroll/Xenon-text-editor" id="text-editor">View Project</a>
                   </p>
                 </label>
                 <label htmlFor="s3" id="slide3">
-                  <img className="fea" src={editor} height="100%" width="100%"/>
+                  <img className="fea" src={shell} height="100%" width="100%"/>
                   <p style={{textAlign: 'center'}}>
-                    <a href="https://github.com/koreaneggroll/shell" id="shell">Shell</a>
+                    Shell <br/><br/>
+                    <a href="https://github.com/koreaneggroll/shell" id="shell">View Project</a>
                   </p>
                 </label>
               </section>
