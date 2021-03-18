@@ -1,6 +1,7 @@
-import mainImg from '../pics/mainImg.jpg';
+import mainImg from '../pics/arin_black.png';
 import React from 'react';
 import '../App.css';
+
 
 
 function Explore(){
