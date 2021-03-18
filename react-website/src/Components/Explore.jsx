@@ -59,21 +59,21 @@ function Explore(){
                   <img className="fea" src={portofolio} height="100%" width="100%"/>
                   <p style={{textAlign: 'center'}}>
                     Portofolio-Site <br/><br/>
-                    <a href="https://github.com/koreaneggroll/portofolio-website" id="portofolio">View Project</a>
+                    <a href="https://github.com/koreaneggroll/portofolio-website" id="portofolio" style={{textDecoration: 'none', color: 'blue'}}>View Project</a>
                   </p>
                 </label>
                 <label htmlFor="s2" id="slide2">
                   <img className="fea" src={editor} height="100%" width="100%"/>
                   <p style={{textAlign: 'center'}}>
                     Xenon Text-Editor <br/><br/>
-                    <a href="https://github.com/koreaneggroll/Xenon-text-editor" id="text-editor">View Project</a>
+                    <a href="https://github.com/koreaneggroll/Xenon-text-editor" id="text-editor" style={{textDecoration: 'none', color: 'blue'}}>View Project</a>
                   </p>
                 </label>
                 <label htmlFor="s3" id="slide3">
                   <img className="fea" src={shell} height="100%" width="100%"/>
                   <p style={{textAlign: 'center'}}>
                     Shell <br/><br/>
-                    <a href="https://github.com/koreaneggroll/shell" id="shell">View Project</a>
+                    <a href="https://github.com/koreaneggroll/shell" id="shell" style={{textDecoration: 'none', color: 'blue'}}>View Project</a>
                   </p>
                 </label>
               </section>
