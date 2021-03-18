@@ -5,6 +5,8 @@ import Top from './Top';
 import editor from '../pics/editor.png';
 import portofolio from '../pics/portofolio.png';
 import shell from '../pics/shell.png';
+import ReactDOM from 'react-dom';
+import About from './About';
 
 
 function Explore(){
@@ -17,6 +19,22 @@ function Explore(){
     }
   
     const check = index => setSelectedIndex(index);
+
+    const projects = "<Projects>";
+    const projects1 = "</Projects>";
+
+
+
+
+    function handleAbout(){
+      ReactDOM.render(
+        <About />,
+        document.getElementById('root')
+      );
+    }
+
+
+
   
     return (
         <div>
@@ -24,7 +42,7 @@ function Explore(){
             <Top />
           </div>
             <div className="projects" style={{textAlign: 'center'}}>
-              <header className="title" style={{marginBottom: '50px'}}><h1>Projects<br/><br/><br/></h1></header>
+              <header className="title" style={{marginBottom: '50px'}}><h1>{projects}<br/><br/><br/></h1></header>
             </div>
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4" style={{position: 'relative'}}>
             <div className="md:w-1/4 py-64 md:mb-0 mb-6 flex flex-col text-center items-center">
@@ -82,6 +100,17 @@ function Explore(){
             </div>
           </div>
           <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+          <div><h1 style={{textAlign: 'center'}}>{projects1}</h1></div>
+
+          <hr/>
+
+          <br/><br/><br/><br/>
+          <div className="about-button">
+            <button onClick={handleAbout} className="explore" style={{marginLeft: '42%'}}>About</button>
+          </div>
+          <br/><br/><br/><br/><br/>
+
+
         </div>
       );
 }
