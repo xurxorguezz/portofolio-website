@@ -1,7 +1,13 @@
 import React from 'react';
+import Top2 from './Top-about.jsx';
+import '../css/About.css';
 
 export default function About(){
     return (
-        <h1>Hello world</h1>
+        <div className="about">
+            <Top2 />
+
+            
+        </div>
     );
 }
