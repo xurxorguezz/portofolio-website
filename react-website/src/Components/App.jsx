@@ -20,8 +20,8 @@ function App() {
     <div className="image">
     <img src={mainImg} style={{width: '100%', height: '100%'}}/>
     <div className="small-about">
-      <h2>Arin Grigoras
-      <p style={{fontSize: '15px'}}>Selft-taugh programmer.<br/>Intermediate in C.<br/>Learning React.js</p></h2>
+      <h2 id="name">A R I N<br/>G R I G O R A S</h2>
+      <p style={{fontSize: '15px'}}>Self-taugh programmer.<br/>Intermediate in C.<br/>Learning React.js</p>
       <div className="wrapper">
         <button onClick={handleExplore} className="explore" style={{color: 'black'}}>Explore</button>
       </div>
