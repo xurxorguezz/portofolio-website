@@ -1,7 +1,7 @@
 import mainImg from '../pics/mainImg.jpg';
 import '../App.css';
 import React from 'react';
-import { useState } from 'react';
+//import { useState } from 'react';
 import Explore from './Explore';
 import ReactDOM from 'react-dom';
 

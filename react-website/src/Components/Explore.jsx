@@ -1,7 +1,8 @@
 import mainImg from '../pics/arin_black.png';
 import React from 'react';
 import '../App.css';
-
+import Top from './Top';
+import editor from '../pics/editor.png';
 
 
 function Explore(){
@@ -17,6 +18,14 @@ function Explore(){
   
     return (
         <div>
+          <div style={{display: 'inline-block'}}>
+            <Top />
+          </div>
+
+          <div style={{display: 'inline-block'}}>
+            Self-Taught Programmer
+          </div>
+
             <div className="projects" style={{textAlign: 'center'}}>
               <header className="title"></header>
             </div>
@@ -50,19 +59,29 @@ function Explore(){
                   onClick={() => check(2)}
                 />
                 <label htmlFor="s1" id="slide1">
-                  <img className="fea" src={mainImg} height="100%" width="100%"/>
+                  <img className="fea" src={editor} height="100%" width="100%"/>
+                  <p style={{textAlign: 'center'}}>
+                    <a href="https://github.com/koreaneggroll/portofolio-website" id="portofolio">Portofolio-Site</a>
+                  </p>
                 </label>
                 <label htmlFor="s2" id="slide2">
-                  <img className="fea" src={mainImg} height="100%" width="100%"/>
+                  <img className="fea" src={editor} height="100%" width="100%"/>
+                  <p style={{textAlign: 'center'}}>
+                    <a href="https://github.com/koreaneggroll/Xenon-text-editor" id="text-editor">Xenon Text-Editor</a>
+                  </p>
                 </label>
                 <label htmlFor="s3" id="slide3">
-                  <img className="fea" src={mainImg} height="100%" width="100%"/>
+                  <img className="fea" src={editor} height="100%" width="100%"/>
+                  <p style={{textAlign: 'center'}}>
+                    <a href="https://github.com/koreaneggroll/shell" id="shell">Shell</a>
+                  </p>
                 </label>
               </section>
             </div>
             <div className="md:w-1/4 py-64 md:mb-0 mb-6 flex flex-col text-center items-center">
             </div>
           </div>
+          <br/><br/><br/><br/><br/><br/><br/><br/><br/>
         </div>
       );
 }
