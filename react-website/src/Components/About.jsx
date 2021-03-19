@@ -7,7 +7,9 @@ export default function About(){
         <div className="about">
             <Top2 />
 
-            
+            <div className="information-right">
+                
+            </div>
         </div>
     );
 }
