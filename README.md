@@ -2,7 +2,7 @@
    # Running React.js Website
    * Requires npm.
     
-   ### How to actually run the website
+   ### Commands
    `cd react-website/`<br/>
    `npm start`
     
