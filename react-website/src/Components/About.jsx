@@ -32,6 +32,7 @@ export default function About(){
                 </div>
             </div>
 
+
             <div className="right-info">
 
                 <div className="vl"></div>
@@ -57,7 +58,19 @@ export default function About(){
                     </ul>
                 </div>
 
-                <div className=""></div>
+                <div className="sponsors">
+                    <h3>Sponsors: </h3>
+                    <ul>
+                        <li>
+                            No Sponsors yet
+                        </li>
+
+
+                        <li id="becomespns">
+                            <a href="https://www.patreon.com/ArinDesign" style={{textDecoration: 'none', color: 'black'}}><h4>Become A Sponsor</h4></a>
+                        </li>
+                    </ul>
+                </div>
 
             </div>
         </div>

@@ -25,6 +25,14 @@
   display: inline-block;
 }
 
+.wrapper {
+  margin: 80px auto;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+
 
 .explore {
   border: 1px solid transparent;
@@ -49,12 +57,6 @@
 }
 
 
-.wrapper {
-  margin: 80px auto;
-  text-align: center;
-  width: 100%;
-  position: relative;
-}
 
 
 .explore:hover::before {
@@ -148,4 +150,14 @@
   position: absolute;
   left: 69%;
   top: 10%;
+}
+
+.sponsors{
+  position: absolute;
+  left: 69%;
+  top: 35%
+}
+
+#becomespns:hover{
+  color: purple;
 }
