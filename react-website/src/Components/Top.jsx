@@ -16,7 +16,7 @@ export default function Top(){
 
     return(
         <div className="top-left">
-            <img id="logo" src={ARIN}
+            <img id="logo" src={ARIN} alt="VRINLOGO"
                 onMouseOver={e => (e.currentTarget.src = VRIN)}
                 onMouseOut={e => (e.currentTarget.src = ARIN)}
                 onClick={handleClick}

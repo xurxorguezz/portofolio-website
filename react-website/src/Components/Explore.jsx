@@ -1,4 +1,4 @@
-import mainImg from '../pics/arin_black.png';
+
 import React from 'react';
 import '../App.css';
 import Top from './Top';
@@ -74,21 +74,21 @@ function Explore(){
                   onClick={() => check(2)}
                 />
                 <label htmlFor="s1" id="slide1">
-                  <img className="fea" src={portofolio} height="100%" width="100%"/>
+                  <img className="fea" src={portofolio} height="100%" width="100%" alt="Portofolio-img"/>
                   <p style={{textAlign: 'center'}}>
                     Portofolio<br/><br/>
                     <a href="https://github.com/koreaneggroll/portofolio-website" id="portofolio" style={{textDecoration: 'none', color: 'blue'}}>View</a>
                   </p>
                 </label>
                 <label htmlFor="s2" id="slide2">
-                  <img className="fea" src={editor} height="100%" width="100%"/>
+                  <img className="fea" src={editor} height="100%" width="100%" alt="Xenon-img"/>
                   <p style={{textAlign: 'center'}}>
                     Xenon<br/><br/>
                     <a href="https://github.com/koreaneggroll/Xenon-text-editor" id="text-editor" style={{textDecoration: 'none', color: 'blue'}}>View</a>
                   </p>
                 </label>
                 <label htmlFor="s3" id="slide3">
-                  <img className="fea" src={shell} height="100%" width="100%"/>
+                  <img className="fea" src={shell} height="100%" width="100%" alt="Shell-img"/>
                   <p style={{textAlign: 'center'}}>
                     Shell<br/><br/>
                     <a href="https://github.com/koreaneggroll/shell" id="shell" style={{textDecoration: 'none', color: 'blue'}}>View</a>

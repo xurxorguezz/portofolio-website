@@ -2,7 +2,6 @@ import React from 'react';
 import '../css/top.css';
 import ARIN from '../pics/arin_black.png';
 import VRIN from '../pics/VRIN.png';
-import App from './App';
 import ReactDOM from 'react-dom';
 import Explore from './Explore';
 
@@ -17,7 +16,7 @@ export default function Top(){
 
     return(
         <div className="top-left">
-            <img id="logo" src={VRIN}
+            <img id="logo" src={VRIN} alt="VRIN-logo"
                 onMouseOver={e => (e.currentTarget.src = ARIN)}
                 onMouseOut={e => (e.currentTarget.src = VRIN)}
                 onClick={handleClick}

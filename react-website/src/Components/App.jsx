@@ -20,9 +20,9 @@ function App() {
   return (
 
     <div className="image">
-    <img src={mainImg} style={{width: '100%', height: '100%'}}/>
+    <img alt="code" src={mainImg} style={{width: '100%', height: '100%'}}/>
     <div className="small-about">
-      <img id="name" src={Logo}/>
+      <img id="name" src={Logo} alt="transparent-logo"/>
       <p style={{fontSize: '15px'}}>Self-taugh programmer.<br/>Intermediate in C.<br/>Learning React.js</p>
       <div className="wrapper">
         <button onClick={handleExplore} className="explore" style={{color: 'black'}}>Explore</button>

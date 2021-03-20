@@ -22,13 +22,12 @@ export default function About(){
                         </p>
                     </h3>
 
-                    <br/>
-
-                    <h3 style={{font: 'fantasy', marginLeft: '40px'}}>
-                        <p style={{fontSize: '30px'}}>How I got into programming</p>
+                    <h3 style={{font: 'fantasy', marginLeft: '30px'}}>
                         <br/>
-                        <p style={{marginLeft: '50px'}}>I got into programming writing little scripts in a Game called KSP(kerbal space program), </p>
-                        <p style={{marginLeft: '20px'}}>using a small programming language called kos</p>
+                        <p>I got into programming writing little scripts in a Game called KSP(kerbal space program), </p>
+                    </h3>
+                    <h3>
+                        <p style={{marginLeft: '10px'}}>using a small programming language called kos</p>
                     </h3>
                 </div>
             </div>
@@ -57,6 +56,8 @@ export default function About(){
                         </li>
                     </ul>
                 </div>
+
+                <div className=""></div>
 
             </div>
         </div>
