@@ -11,11 +11,30 @@ export default function About(){
             <br/>
 
             <div className="description">
-                <p><h1 style={{font: 'fantasy', fontSize: '80px'}}>HELLO;</h1></p>
-                <div className="about"></div>
+                <p><h1 style={{font: 'fantasy', fontSize: '80px', color: 'lightblue', fontWeight: 'bolder', marginLeft: '20px'}}>HELLO;</h1></p>
+                <div className="about">
+                    <h3 style={{font: 'fantasy', marginLeft: '40px' }}>
+                        I am Arin and I am a Student/Programmer. I'm very energic and eager to learn new things(not
+                    </h3>
+                    <h3>
+                        <p style={{marginLeft: '10px'}}>
+                            neccessarily programming).
+                        </p>
+                    </h3>
+
+                    <br/>
+
+                    <h3 style={{font: 'fantasy', marginLeft: '40px'}}>
+                        <p style={{fontSize: '30px'}}>How I got into programming</p>
+                        <br/>
+                        <p style={{marginLeft: '50px'}}>I got into programming writing little scripts in a Game called KSP(kerbal space program), </p>
+                        <p style={{marginLeft: '20px'}}>using a small programming language called kos</p>
+                    </h3>
+                </div>
             </div>
 
             <div className="right-info">
+
                 <div className="vl"></div>
 
                 <div className="like">
