@@ -83,6 +83,12 @@ export default function About(){
                     </ul>
                 </div>
 
+
+                <div className="Contact">
+                    <h3>Contact.</h3>
+                    aringrigoras@gmail.com
+                </div>
+
             </div>
         </div>
     );
