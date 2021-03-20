@@ -72,6 +72,17 @@ export default function About(){
                     </ul>
                 </div>
 
+
+                <div className="technologies">
+                    <h3>This website was built with: </h3>
+
+                    <ul>
+                        <li>
+                            <a href="https://reactjs.org/" style={{textDecoration: 'none', color: 'black', fontSize: '18px'}}>React.js</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     );

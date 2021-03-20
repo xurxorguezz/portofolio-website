@@ -161,3 +161,10 @@
 #becomespns:hover{
   color: purple;
 }
+
+
+.technologies{
+  position: absolute;
+  left: 69%;
+  top: 60%
+}
